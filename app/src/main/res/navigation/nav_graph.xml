@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.testcity.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+<!--        <action-->
+<!--            android:id="@+id/action_mainFragment_to_notificationFragment"-->
+<!--            app:destination="@id/notificationFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_mainFragment_to_secondPageFragment"-->
+<!--            app:destination="@id/moreActionsFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_mainFragment_to_searchFragment"-->
+<!--            app:destination="@id/searchFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_mainFragment_to_basketFragment"-->
+<!--            app:destination="@id/basketFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_mainFragment_to_moreActionsFragment"-->
+<!--            app:destination="@id/moreActionsFragment" />-->
+    </fragment>
+    <fragment
+        android:id="@+id/moreActionsFragment"
+        android:name="com.example.testcity.MoreActionsFragment"
+        android:label="fragment_second_page"
+        tools:layout="@layout/fragment_more_actions" >
+    </fragment>
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.example.testcity.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" >
+        <action
+            android:id="@+id/action_notificationFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.testcity.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/basketFragment"
+        android:name="com.example.testcity.BasketFragment"
+        android:label="fragment_basket"
+        tools:layout="@layout/fragment_basket" />
+</navigation>

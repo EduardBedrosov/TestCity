@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Test City</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="basket_fragment">Basket fragment</string>
+    <string name="more_fragment">More fragment</string>
+    <string name="search_fragment">Search fragment</string>
+    <string name="notifications_fragment">Notifications fragment</string>
+    <string name="discover">Discover</string>
+    <string name="categories">Categories</string>
+    <string name="search">Search</string>
+    <string name="more">More</string>
+    <string name="main">Main</string>
+    <string name="home">Home</string>
+    <string name="basket">Basket</string>moreActions
+    <string name="notification">Notification</string>
+    <string name="moreActions">MoreActions</string>
+    <string name="popular">Popular</string>
+    <string name="biscuits">Biscuits With Chocolates</string>
+    <string name="description">A chocolate biscuit is a small, flat, crisp bakery product that is usually made with flour, sweetener like sugar or honey, butter or vegetable oils, melted chocolates or cocoa powder and a chemical leavening agent such as baking powder.</string>
+    <string name="ingredients_name">ingredients</string>
+    <string name="ingredients">Flour, salt, and butter or vegetable shortening, with baking powder as a leavening agent</string>
+    <string name="shelf_life">Shelf Life</string>
+    <string name="months">12 month</string>
+    <string name="prize_amd">2500 AMD</string>
+    <string name="cakes">Cakes</string>
+    <string name="_44_products">44 Products</string>
+</resources>
